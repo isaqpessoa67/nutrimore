@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+input {
+  cursor: pointer;
+}
+
 .container {
     max-width: 1050px;
     width: 90%;
@@ -309,6 +313,20 @@
   height: 90vh;
 }
 
+.guarda-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.guarda-cadastrologin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
 .agendamento {
   display: flex;
   flex-direction: column;
@@ -317,6 +335,24 @@
   height: 90%;
   align-items: center;
   justify-content: center;
+}
+
+.cadastrologin {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #90cfba;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.cadastrologin h2 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-weight: 400;
+  margin: 30px;
 }
 
 .agendamento h2 {
@@ -328,6 +364,31 @@
 }
 
 .agendamento .button {
+  margin: 10px;
+  width: 130px;
+  color: #e5fff6;
+  border-radius: 50px;
+}
+
+.box-perfil {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #90cfba;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-perfil h2 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-weight: 400;
+  margin: 30px;
+}
+
+.box-perfil .button {
   margin: 10px;
   width: 130px;
   color: #e5fff6;
@@ -354,3 +415,126 @@ h3 {
   font-weight: 300;
   margin-left: 13px;
 }
+
+.perfil-foto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #406055;
+  width: 400px;
+}
+
+.perfil-foto img {
+  width: 200px;
+  height: 200px;
+}
+
+.dados {
+  background-color: #406055;
+  color: white;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.guarda-form {
+  flex-direction: row;
+  min-width: 300px;
+}
+
+.guarda-historico {
+  background-color: #406055;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.historico p {
+  color: white;
+}
+
+.guarda-cadastrologin {
+  background-color: #90cfba;
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
+
+.cadastrologin {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #406055;
+}
+
+.cadastrologin .button {
+  background-color: #ffffff;
+  color: #406055;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cadastrologin .button:hover {
+  background-color: #0e2431;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.cadastrologin p {
+  color: white;
+}
+
+.cadastrologin p:hover {
+  color: #90cfba;
+}
+
+.dadosForm {
+  background-color: #ffffff;
+  color: white;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.botoesPerfil {
+  display: flex;
+  flex-direction: row;
+}
+
+.guarda-conclusão {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+
+  .conclusão {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #90cfba;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .conclusão h2 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .conclusão .button {
+    margin: 20px;
+    width: 130px;
+    color: #e5fff6;
+    border-radius: 50px;
+  }
+  
